@@ -1,0 +1,92 @@
+body{
+    margin: 25px;
+}
+#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 200px;
+}
+p{
+    margin: 0px;
+    font-style: bold;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem
+}
+li button{
+    width: fit-content;
+    height: 20px;
+}
+ul{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;
+    padding: 10px;
+
+}
+#deletebtn{
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    height: 30px;
+}
+#editbtn{
+    background-color: yellowgreen;
+    color: black;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    height: 30px;
+}
+#showbtn, #btn{
+    background-color: lightblue;
+    color: black;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    height: 35px;
+}
+#inp{
+    border: lightskyblue 2px solid;
+    border-radius: 5px;
+    height: 30px;
+}
+
+@media (min-width: 320px) and (max-width:768px) {
+    body{
+        margin: 3px;
+    }
+    h1{
+        margin-left: 25px;
+    }
+    li button{
+        font-size: 0.8rem;
+        justify-content: space-between;
+        margin: 2px;
+    }
+    li{
+        font-size: 1.5rem;
+    }
+}
